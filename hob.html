@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type='module' src='https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js'></script>
+    <script nomodule src='https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js'></script>
+</head>
+<body>
+    <div id="navArea">
+        <nav>
+            <div class="inner">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="cont.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="mask"></div>
+    </div>
+      
+    <div class="hobby" id="hobby">
+        <div class="title">
+            <h2>Hobby</h2>
+            <h6>＜ blender ＞</h6>
+        </div>
+        <div class="box">
+            <div class="cardB">
+                <i class="fa-solid fa-mug-hot"></i>
+                 <h5>ブタのコーヒー</h5>
+                <model-viewer
+                    src="images/nakomag.glb"
+                    alt="A 3D model"
+                    ar
+                    camera-controls
+                    autoplay
+                    shadow-intensity="1"
+                    exposure="0.5"
+                ></model-viewer>
+                 <div class="pragraph">
+                    <p>マグカップにコーヒーを淹れ、ブタをのせました。</p> 
+                </div>
+            </div>
+            <div class="cardB">
+                <i class="fa-solid fa-mug-hot"></i>
+                 <h5>猫のココア</h5>
+                <model-viewer
+                    src="images/nekomag.glb"
+                    alt="A 3D model"
+                    ar
+                    camera-controls
+                    autoplay
+                    shadow-intensity="1"
+                    exposure="0.5"
+                ></model-viewer>
+                 <div class="pragraph">
+                    <p>マグカップにココアを淹れ、猫をのせました。</p> 
+                </div>
+            </div>
+            <div class="cardB">
+                <i class="fa-solid fa-mug-hot"></i>
+                 <h5>食前</h5>
+                <model-viewer
+                    src="images/sara.glb"
+                    alt="A 3D model"
+                    ar
+                    camera-controls
+                    autoplay
+                    shadow-intensity="1"
+                    exposure="0.5"
+                ></model-viewer>
+                 <div class="pragraph">
+                    <p>机に椅子、お皿にパンケーキ、コーヒーを淹れたマグカップを作りました。</p> 
+                </div>
+            </div>
+            <div class="cardB">
+                <i class="fa-solid fa-pills"></i>
+                 <h5>カプセル</h5>
+                <model-viewer
+                    src="images/kusuri.glb"
+                    alt="A 3D model"
+                    ar
+                    camera-controls
+                    autoplay
+                    shadow-intensity="1"
+                    exposure="0.5"
+                ></model-viewer>
+                 <div class="pragraph">
+                    <p>YouTubeの動画を参考にカプセルを作りました。</p> 
+                </div>
+            </div>
+            <div class="cardB">
+                <i class="fa-solid fa-candy-cane"></i>
+                 <h5>虹色キャンディ</h5>
+                <model-viewer
+                    src="images/can.glb"
+                    alt="A 3D model"
+                    ar
+                    camera-controls
+                    autoplay
+                    shadow-intensity="1"
+                    exposure="0.5"
+                ></model-viewer>
+                 <div class="pragraph">
+                    <p>YouTubeの動画を参考に7色のキャンディを作りました。</p> 
+                </div>
+            </div>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
