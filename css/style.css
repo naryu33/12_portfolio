@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Azuki";
-  src: url(azuki.ttf);
+  src: url(../azuki.ttf);
 }
 
 *{
@@ -8,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Azuki";
-  cursor: url(images/naru.gif), auto;
+  cursor: url(../images/naru.gif), auto;
 }
 
 body {
