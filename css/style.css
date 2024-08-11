@@ -447,3 +447,14 @@ model-viewer {
   font-size: 50px;
   margin: 25px  10px;
 }
+
+/* hatena */
+
+.hatena {
+  text-align: center;
+}
+
+.hatena img {
+  width: 500px;
+  height: auto;
+}
